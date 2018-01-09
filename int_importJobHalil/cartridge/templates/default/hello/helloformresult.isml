@@ -1,0 +1,18 @@
+<!--- TEMPLATENAME: helloformresult.isml --->
+<!--- TEMPLATENAME: helloform.isml --->
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isdecorate template="hello/pt_hello">
+
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+<isinclude template="util/modules"/>
+
+<h1>Hello World Form Result</h1>
+<p>Thank you for entering: </p>
+<p>${pdict.CurrentForms.helloform.nickname.label} ${pdict.CurrentForms.helloform.nickname.value}</p>
+<p>${pdict.CurrentForms.helloform.email.label} ${pdict.CurrentForms.helloform.email.value}</p>
+		
+        <form action="${URLUtils.httpContinue()}" method="post"	name="${pdict.CurrentForms.helloform.htmlName}" id="hello-items-form">
+			<button type="submit" name="${pdict.CurrentForms.helloform.returnHome.htmlName}" value="submit">Return Hello World</button>
+        </form>
+        
+</isdecorate>

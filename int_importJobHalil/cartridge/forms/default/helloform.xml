@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19">
+	<field formid="nickname" label="Nickname:" type="string" mandatory="true" max-length="50" missing-error="Your Name is Mandatory"/>
+	<field formid="phone" label="Phone:" type="string" mandatory="true" max-length="50" missing-error="Your Name is Mandatory" />
+	<field formid="email" label="E-Mail:" type="string" mandatory="true" regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" parse-error="Invalid Text"
+/>
+	<action formid="submit" valid-form="true"/>
+	<action formid="cancel" valid-form="false"/>
+	<action formid="returnHome" valid-form="true"/>
+</form>

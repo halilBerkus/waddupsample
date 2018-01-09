@@ -1,0 +1,12 @@
+{
+	"hooks": [
+        {
+            "name": "testHook",
+            "script": "./test/TestCreate.js"
+        },
+            {
+            "name": "copyHook",
+            "script": "./test/Copy.js"
+        }
+	]
+}
