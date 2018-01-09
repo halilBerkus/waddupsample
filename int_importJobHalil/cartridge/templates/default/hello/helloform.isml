@@ -1,0 +1,29 @@
+<!--- TEMPLATENAME: helloform.isml --->
+<iscontent type="text/html" charset="UTF-8" compact="true"/>
+<isdecorate template="hello/pt_hello">
+
+<iscontent type="text/html" charset="UTF-8" compact="true" />
+<isinclude template="util/modules"/>
+
+<h1>Choose the best outfit for your nickname</h1>
+	<div>
+		<isslot id="nick-name" description="Nick Name Test" context="global" />
+	</div>
+<form action="${URLUtils.httpsContinue()}" method="post" class="form-horizontal" id="HelloForm">
+	<fieldset>
+
+		<isinputfield formfield="${pdict.CurrentForms.helloform.nickname}" type="input"/>
+		<isinputfield formfield="${pdict.CurrentForms.helloform.email}" type="input"/>
+		<isinputfield formfield="${pdict.CurrentForms.helloform.phone}" type="input"/>
+
+	</fieldset>
+	<fieldset>
+			<button type="submit"
+				name="${pdict.CurrentForms.helloform.submit.htmlName}"
+				value="submit">Submit</button>
+			<button type="cancel"
+				name="${pdict.CurrentForms.helloform.cancel.htmlName}"
+				value="submit">Cancel</button>
+	</fieldset>
+</form>
+</isdecorate>

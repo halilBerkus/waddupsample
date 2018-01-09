@@ -1,0 +1,65 @@
+Project Development
+--------------------------
+Markdown
+Git Flow
+Jira
+Confluence
+Stash
+SourceTree
+editorconfig
+
+    Tools
+    -----------
+    Curl
+    Postman
+    SoapUI
+
+FE Development
+--------------------------
+Regex
+Less
+Sass
+css3
+html5
+image formats
+image optimizations
+responsiveness
+google pagespeed
+mobile first
+
+
+Devops
+---------------------------
+SSL
+SSH
+ftp
+webdav
+docker
+
+
+Web Security
+---------------------------
+csrf
+xss
+sql injection
+
+
+SEO
+--------------------------
+sitemap.xml
+breadcrumbs
+opengraph
+GTM
+Google Analytics
+
+
+Javascript
+--------------------------
+package.json
+robots.txt
+Cookies
+Localstorage
+SessionStorage
+Web Workers
+Ajax
+Ecmascript

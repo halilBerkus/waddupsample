@@ -1,0 +1,34 @@
+[
+ {
+    "_id": "5a43b42769kdk8jafee4d235",
+    "index": 3,
+    "guid": "8c2c8413-8307-493f-83ea-1804f1271bb3",
+    "isActive": false,
+    "balance": "$3,047.33",
+    "picture": "http://placehold.it/32x32",
+    "age": 40,
+    "eyeColor": "blue",
+    "name": "Hale Pate",
+    "gender": "male",
+    "company": "ORBIN",
+    "email": "halepate@orbin.com",
+    "phone": "+1 (913) 483-3987",
+    "address": "893 Bainbridge Street, Harmon, Virgin Islands, 7019"
+  },
+  {
+    "_id": "5a43b42r963kf1f3adhdfd6f",
+    "index": 4,
+    "guid": "80f55830-08e6-49ec-a2f2-807288348ef7",
+    "isActive": true,
+    "balance": "$3,741.89",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Spears Cole",
+    "gender": "male",
+    "company": "LYRIA",
+    "email": "spearscole@lyria.com",
+    "phone": "+1 (920) 542-2809",
+    "address": "911 Wyckoff Avenue, Sunnyside, Oregon, 1294"
+  }
+]

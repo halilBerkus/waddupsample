@@ -1,0 +1,12 @@
+// my_custom_script.ds
+importPackage( dw.web );
+ 
+exports.my_custom_validation = function( nickNameField : FormField )
+{
+       // Add your validation logic here   
+       if(nickNameField){
+       return true;
+       }
+       else {return false};
+        
+}
