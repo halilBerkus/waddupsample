@@ -35,6 +35,7 @@ function handleForm() {
                    var boolCopyHook = dw.system.HookMgr.hasHook("copyHook");
 
                 	var newCustomObject = dw.system.HookMgr.callHook('copyHook', 'copyAttr', formgroup, mycust.custom._id);
+                	   var ranstring = dw.system.HookMgr.callHook('extractXML', 'extract');
                     //mycust.custom.email = formgroup.email.value;
                     //mycust.custom.nickname = formgroup.nickname.value;
                     //mycust.custom.isActive = true;

@@ -7,6 +7,10 @@
             {
             "name": "copyHook",
             "script": "./test/Copy.js"
+        },
+        {
+            "name": "extractXML",
+            "script": "./test/Extract.js"
         }
 	]
 }
